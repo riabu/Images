@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+    }
+    .gallery img, .menu img {
+      width: 100px;
+      height: 100px; /* Added to ensure images are square */
+      margin: 10px;
+      object-fit: cover; /* This property ensures the image covers the entire area while maintaining its aspect ratio */
+    }
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="section">
+    <h2>Home</h2>
+    <p>Welcome to our website! Here, you'll find images related to technology, nature, and food.</p>
+   <img src="TECHNOLOGY.jpg" alt ="TECHNOLOGY">
+  </div>
+
+  <div class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="nature1.webp" alt="nature">
+      <img src="nature 2.jpg" alt="nature">
+      <img src="nature 3.jpeg" alt="nature">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Menu</h2>
+    <div class="menu">
+      <ul>
+        <li><img src="food 1.webp" alt="chinese food"></li>
+        <li><img src="food 2.jfif" alt="vegetables"></li>
+        <li><img src="food 3.jpg" alt="fries and burger"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
